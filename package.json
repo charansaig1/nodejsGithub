@@ -11,5 +11,14 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
